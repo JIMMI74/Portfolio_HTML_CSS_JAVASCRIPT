@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,300&display=swap');
+
+* {
+    margin: 0;
+    padding:0;
+    box-sizing :content-box;
+    font-family: 'Source Sans Pro', sans-serif ;
+}
+main {
+    display: flex;
+    background-color:darkgray;
+    height:100vh;
+    justify-content:flex-end;
+    border-style: dashed;
+    background-image: url("img/family.jpeg");
+
+
+
+}
+
+.border_nav{
+    width:10vw;
+    height:100vh;
+    background-color:goldenrod;
+    display:flex;
+    justify-content: center;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow:100px 100px 100px 100px black;
+
+
+}
+ul,li a{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height:18vh;
+
+}
+img {
+
+    width:8vw;
+    display:flex;
+    flex-direction: column;
+    align-self: center;
+    padding:18px;
+    margin:1px 20px 10px 20px;
+
+
+
+}
+li {
+    text-decoration: goldenrod;
+    flex-direction: column;
+    width:100px;
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+.who {
+    margin-top:40px;
+}
+
+
+.buttons {
+    width:100px;
+    height:40px;
+    border-radius:20px;
+    background-color:lightslategray;
+    display:block;
+}
+.zoom{
+    transition:2s;
+}
+
+.finance{
+    border:solid;
+    padding:10px;
+    display: flex;
+
+}
+.font {
+
+    height:50px;
+    width:50px;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding:10px;
+
+}
+.fa-solid {
+    scale: 1.5;
+}
+button.zoom span{
+    display:none;
+}
+button.zoom:hover span{
+    display:block;
+    color:red;
+
+}
+button.zoom:hover span {
+    display:block; color:yellow;
+}
+.text {
+    font-size:0.3rem;
+    font-family:cursive;
+    margin-top:10px;
+}
+.txt {
+    font-size:0.5rem;
+    font-family:cursive;
+
+
+
+
+
+}
+.zoom:hover {
+    border: solid whitesmoke;
+    width: 260px;
+    height: 145px;
+    transform: translate(-530px) scale(3);
+    font-weight: 900;
+    border-radius: 30%;
+    display:inline-block;
+    text-align: center;
+}
+
+
+.family{
+
+    width:8vw;
+    height:5.5vh;
+    padding:20px;
+    border-radius:50px;
+    box-shadow:5px 5px 100px 50px yellow;
+    border:solid whitesmoke;
+    float:left;
+}
+button.contact span{
+    display:none;
+}
+button.contact:hover span{
+    display:block;
+    color:red;
+}
+button.contact:hover span {
+    display:block; color:yellow;
+}
+.contact:hover {
+    border: solid whitesmoke;
+    width: 260px;
+    height: 145px;
+    transform: translate(-530px,-500px) rotate(360deg) scale(3);
+    font-weight: 900;
+    border-radius: 30%;
+    display:inline-block;
+    text-align: center;
+    transition:2s
+}
